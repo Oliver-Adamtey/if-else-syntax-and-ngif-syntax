@@ -1,12 +1,12 @@
 <div class="course-card">
     <div class="course-title">
-        {{course.description}}
+        {{ course.description }}
     </div>
 
-    @if (course.id == 1) {
+    @if (courses.id == 1) {
         <h2>Course with ID 1 detected</h2>
     }
-    
+
     @else if (course.iconUrl) {
 
         <img [src]="course.iconUrl" alt="Angular Logo" width="300">
@@ -16,7 +16,7 @@
     }
 
     <div class="course-description">
-        {{course.longDescription}}
+        {{ course.longDescription }}
     </div>
 
     <button (click)="OnCourseViewed()">View Course</button>
