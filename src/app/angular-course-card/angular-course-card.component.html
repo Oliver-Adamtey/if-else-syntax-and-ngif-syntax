@@ -1,1 +1,16 @@
-<p>angular-course-card works!</p>
+<div class="course-card">
+    <div class="course-title">
+        {{course.description}}
+    </div>
+
+    @if (course.iconUrl) {
+
+        <img [src]="course.iconUrl" alt="Angular Logo" width="300">
+    }
+
+    <div class="course-description">
+        {{course.longDescription}}
+    </div>
+
+    <button (click)="OnCourseViewed()">View Course</button>
+</div>

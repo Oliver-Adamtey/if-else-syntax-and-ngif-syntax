@@ -15,7 +15,7 @@ export const COURSE: any = [
         lessonsCount: 10,
         category: 'INTERMEDIATE'
     },
-    {
+    { 
         id: 1,
         description: "RxJs Core Deep Dive",
         iconUrl: 'https://blog.angular-university.io/angular-if/',

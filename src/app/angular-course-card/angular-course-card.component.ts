@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './angular-course-card.component.scss'
 })
 export class AngularCourseCardComponent {
+OnCourseViewed() {
+throw new Error('Method not implemented.');
+}
+course: any;
 
 }
